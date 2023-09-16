@@ -1,6 +1,6 @@
 console.log("\n\nRequest with XHR get one");
 
-const urlApi3 = "https://restcountries.com/v3.1/capital/hanoi";
+const urlApi3 = "https://65051b38ef808d3c66efc66e.mockapi.io/api/products/1";
 
 let xhr = new XMLHttpRequest()
 xhr.open("GET", urlApi3, true)

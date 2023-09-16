@@ -1,7 +1,7 @@
 console.log("\n\nRequest with XHR");
 
 // all capital of worlds
-const urlApi4 = "https://restcountries.com/v3.1/capital/all";
+const urlApi4 = "https://65051b38ef808d3c66efc66e.mockapi.io/api/products";
 
 let xhr = new XMLHttpRequest()
 xhr.open("GET", urlApi4, true)

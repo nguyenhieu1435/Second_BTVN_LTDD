@@ -1,10 +1,11 @@
 console.log("\n\nRequest with Jquery Ajax with XHR");
-const urlApi2 = "https://restcountries.com/v3.1/all"
+const urlApi2 = "https://65051b38ef808d3c66efc66e.mockapi.io/api/products"
 
 $.ajax({
         url: urlApi2,
         beforeSend: (xhr) => {
-            xhr.overrideMimeType("text/plain;charset=x-user-defined")
+            xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded; charset=x')
+            xhr.overrideMimeType("text/plain;x-user-defined")
         }
     })
     .done(data => {
